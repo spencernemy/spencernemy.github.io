@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    background-color: #F5F7FA;
-    color: #1E3A5F;
     font-family: Inter, sans-serif;
 }
 
@@ -10,7 +8,7 @@ h1, h2 {
 }
 
 .hero {
-    
+    background-color: #F5F7FA;
     border-bottom: 1px solid gray;
 }
 
