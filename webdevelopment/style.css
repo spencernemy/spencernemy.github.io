@@ -74,3 +74,19 @@ h1, h2 {
 .resume-link:hover {
     background-color: #1E3A5F;
 }
+
+.education-list {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+.education-list li {
+    font-size: 16px;
+    color: #1E3A5F;
+}
+
+.education-list li:hover {
+    font-weight: bold;
+    cursor: default;
+}
