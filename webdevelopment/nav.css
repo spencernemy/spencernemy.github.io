@@ -1,0 +1,28 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #F5F7FA;
+    border-bottom: 1px solid gray;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.nav-list a {
+    font-family: Poppins, Inter, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1E3A5F;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: #3B82F6;
+}
