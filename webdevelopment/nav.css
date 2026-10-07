@@ -26,3 +26,9 @@
 .nav-list a:hover {
     color: #3B82F6;
 }
+
+.logo {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
