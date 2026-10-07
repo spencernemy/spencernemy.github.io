@@ -8,20 +8,39 @@
 -->
 
 <html lang="en"> <!-- Declares page language -->
+
 <head> <!-- Contains metadata, nothing visible on the webpage -->
     <meta charset="utf-8"> <!-- Specifies the correct character encoding -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Allows for a mobile-friendly layout -->
     <title>My Starter Template</title> <!-- Title that appears in the browser tab -->
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body> <!-- Contains main content visible on the webpage -->
-    <header> <!-- Content at top of page, will contain my logo and site navigation -->
+    <header class="site-header">
+        <a href="index.html"><img src="../webcontent/logo.png" alt="Spencer Niemeyer Logo" class="logo"></a>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Projects/Experience</a></li>
+                <li><a href="#">Reflection</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <h1>Hello, world!</h1> <!-- Main heading for the page, similar elements will hold the main content of the page -->
 
     <footer> <!-- Footer at bottom of page, usually contains CTA or page links -->
         Spencer Niemeyer, 8/27/2026
     </footer>
 </body>
+
 </html>
