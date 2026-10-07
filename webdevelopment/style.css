@@ -60,3 +60,17 @@ h1, h2 {
 .button:hover {
     background-color: #1E3A5F;
 }
+
+.resume-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    margin: 10px;
+    border: 2px solid #1E3A5F;
+    background-color: #3B82F6;
+    border-radius: 5px;
+}
+.resume-link:hover {
+    background-color: #1E3A5F;
+}
