@@ -1,5 +1,6 @@
 /*
   Name: Spencer Niemeyer
+  File: style.css
   Date: 10/18/2026
   Course: IS_LT 4355
   Description: Styles for all main pages of portfolio website.
@@ -132,6 +133,14 @@ main h2 {
 }
 
 /* Reflection Page Styling */
+
+.reflection {
+    padding: 20px 3%;
+}
+
+.reflection p {
+    text-indent: 40px;
+}
 
 /* Pseudo element used here */
 .first-paragraph::first-letter {
