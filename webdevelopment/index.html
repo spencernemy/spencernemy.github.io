@@ -23,51 +23,70 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <header>
         <a href="index.html"><img src="../webcontent/logo.png" alt="Spencer Niemeyer Logo" class="logo"></a>
-        <nav>
+        <nav> <!-- Navigation coded here -->
             <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#">Projects/Experience</a></li>
-                <li><a href="#">Reflection</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="submenu">
+                        <a href="mailto:spencerniemeyer@gmail.com">Email</a>
+                        <a href="https://github.com/spencernemy" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank">LinkedIn</a>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h1>HELLO, I'M SPENCER</h1>
-            <h2>Passionate Computer Science + Data Science Student</h2>
-            <p>I am a Computer Science and Data Science student at Mizzou, and I am passionate about
-                software development and growing my technical ability alongside an AI-forward skillset.</p>
-            <a class="button" href="#">View Projects</a>
-        </div>
+    <main> <!-- Main content coded here -->
+        <section class="hero home-section">
+            <div class="hero-text">
+                <h1>HELLO, I'M SPENCER</h1>
+                <h2>Passionate Computer Science + Data Science Student</h2>
+                <p class="support-hero-text">I am a Computer Science and Data Science student at Mizzou, and I am
+                    passionate about
+                    software development and growing my technical ability alongside an AI-forward skillset.</p>
+                <a class="button hero-button" href="#">View Projects</a>
+            </div>
 
-        <div class="hero-image">
-            <img src="headshot.jpg" alt="Photo of Spencer">
-        </div>
-    </section>
+            <div class="hero-image">
+                <img src="headshot.jpg" alt="Photo of Spencer">
+            </div>
+        </section>
 
-    <h3>Purpose and Goals</h3>
-    <p>My main goal is to continue developing my skills in the software
-        engineering world, as well as overall computer science and data science concepts.
-        Because I am passionate about making an impact in the field, I am also motivated to
-        continuously gain experience working on projects that matter whether that is through
-        internships or my personal projects. This portfolio is intended to showcase the projects I
-        have worked on, as well as the real world experience I have gained and hopefully show
-        what experience I hope to gain in the near future with more opportunities. For me,
-        expanding my technical knowledge is not just a means to an end for a job, but it is a
-        passion that I have and want to continue growing in.</p>
+        <section class="home-section">
+            <h2>Purposes & Goals</h2>
+            <p>My main goal is to continue developing my skills in the software
+                engineering world, as well as overall computer science and data science concepts.
+                Because I am passionate about making an impact in the field, I am also motivated to
+                continuously gain experience working on projects that matter whether that is through
+                internships or my personal projects. This portfolio is intended to showcase the projects I
+                have worked on, as well as the real world experience I have gained and hopefully show
+                what experience I hope to gain in the near future with more opportunities. For me,
+                expanding my technical knowledge is not just a means to an end for a job, but it is a
+                passion that I have and want to continue growing in.</p>
+        </section>
 
-    <h3>Favorite Quote</h3>
-    <blockquote>
-        <p>“Find a job you love, and you will never have to work a day in your life.” - Unknown</p>
-    </blockquote>
+        <section class="home-section">
+            <blockquote>
+                <h2>“Find a job you love, and you will never have to work a day in your life.”</h2>
+            </blockquote>
+        </section>
+    </main>
 
     <footer>
-        Spencer Niemeyer, 10/6/2026
+        <p>&copy; Spencer Niemeyer, 2026</p>
+
+        <div class="footer-links">
+            <p>Contact: <a href="mailto:spencerniemeyer@gmail.com">spencerniemeyer@gmail.com</a></p>
+            <a href="https://github.com/spencernemy" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank">LinkedIn</a>
+        </div>
     </footer>
 </body>
 

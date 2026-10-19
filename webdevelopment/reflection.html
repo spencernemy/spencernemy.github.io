@@ -25,18 +25,25 @@
 <body>
     <header class="site-header">
         <a href="index.html"><img src="../webcontent/logo.png" alt="Spencer Niemeyer Logo" class="logo"></a>
-        <nav>
+        <nav> <!-- Navigation coded here -->
             <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#">Projects/Experience</a></li>
                 <li><a href="reflection.html">Reflection</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="submenu">
+                        <a href="mailto:spencerniemeyer@gmail.com">Email</a>
+                        <a href="https://github.com/spencernemy" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank">LinkedIn</a>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main> <!-- Main content coded here -->
         <h1>Personal Reflection</h1>
         <h2>
             This section reflects on my career goals and experiences, and where I would like to take
@@ -92,7 +99,13 @@
     </main>
 
     <footer>
-        Spencer Niemeyer, 10/8/2026
+        <p>&copy; Spencer Niemeyer, 2026</p>
+
+        <div class="footer-links">
+            <p>Contact: <a href="mailto:spencerniemeyer@gmail.com">spencerniemeyer@gmail.com</a></p>
+            <a href="https://github.com/spencernemy" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank">LinkedIn</a>
+        </div>
     </footer>
 </body>
 

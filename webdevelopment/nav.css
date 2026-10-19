@@ -1,9 +1,18 @@
-.site-header {
+/*
+  Name: Spencer Niemeyer
+  Date: 10/18/2026
+  Course: IS_LT 4355
+  Description: Styles for header and footer of portfolio website.
+*/
+
+/* Header */
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background-color: #F5F7FA;
+    background-color: #FFFFFF;
     border-bottom: 1px solid gray;
 }
 
@@ -31,4 +40,61 @@
     width: 400px;
     padding: 0;
     margin: 0;
+}
+
+/* Header dropdown menu */
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 150px;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px;
+}
+
+.submenu a {
+    font-size: 20px;
+    display: block;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+footer a {
+    color: #3B82F6;
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

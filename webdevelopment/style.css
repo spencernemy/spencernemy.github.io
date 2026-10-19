@@ -1,51 +1,31 @@
+/*
+  Name: Spencer Niemeyer
+  Date: 10/18/2026
+  Course: IS_LT 4355
+  Description: Styles for all main pages of portfolio website.
+*/
+
+/* Universal styles */
+
 body {
     margin: 0;
     font-family: Inter, sans-serif;
-}
+    background-color: #F5F7FA;
+    color: #1E3A5F;
+}    
 
 h1, h2 {
     font-family: Poppins, sans-serif;
 }
 
-.hero {
-    background-color: #F5F7FA;
-    border-bottom: 1px solid gray;
-}
-
-.hero-text {
-    display: inline-block;
-    width: 55%;
-    padding: 55px 3%;
-}
-
-.hero-image {
-    display: inline-block;
-    width: 38%;
-    padding: 20px 0;
+main h1 {
+    font-size: 40px;
     text-align: center;
-    border-left: 1px solid gray;
 }
 
-.hero-image img {
-    width: 300px;
-    border-radius: 40px;
-}
-
-.hero-text h1 {
-    font-size: 64px;
-    margin: 0;
-    color: #1E3A5F;
-}
-
-.hero-text h2 {
-    font-size: 24px;
-    margin-top: 8px;
-    color: #1E3A5F;
-}
-
-.hero-text p {
-    font-size: 18px;
-    color: #1E3A5F;
+main h2 {
+    font-size: 32px;
+    text-align: center;
 }
 
 .button {
@@ -57,9 +37,66 @@ h1, h2 {
     border-radius: 5px;
 }
 
+/* Pseudo class used here */
 .button:hover {
     background-color: #1E3A5F;
 }
+
+/* Home Page Styling */
+
+.home-section {
+    border-bottom: 1px solid gray;
+}
+
+.hero {
+    background-color: #DCE6F2;
+}    
+
+.hero-text {
+    display: inline-block;
+    width: 55%;
+    padding: 55px 3%;
+}    
+
+.hero-text h1 {
+    font-size: 64px;
+    margin: 0;
+}    
+
+.hero-text h2 {
+    font-size: 24px;
+    margin-top: 8px;
+}    
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.support-hero-text {
+    text-align: center;
+}
+
+.hero-button {
+    font-size: 18px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 38%;
+    padding: 20px 0;
+    text-align: center;
+    border-left: 1px solid gray;
+}    
+
+.hero-image img {
+    width: 300px;
+    border-radius: 40px;
+}    
+
+/* About Page Styling */
 
 .resume-link {
     display: inline-block;
@@ -71,6 +108,8 @@ h1, h2 {
     background-color: #3B82F6;
     border-radius: 5px;
 }
+
+/* Pseudo class used here */
 .resume-link:hover {
     background-color: #1E3A5F;
 }
@@ -86,13 +125,18 @@ h1, h2 {
     color: #1E3A5F;
 }
 
+/* Pseudo class used here */
 .education-list li:hover {
     font-weight: bold;
     cursor: default;
 }
 
+/* Reflection Page Styling */
+
+/* Pseudo element used here */
 .first-paragraph::first-letter {
     font-weight: bold;
     font-size: 2em;
     color: #3B82F6;
 }
+
