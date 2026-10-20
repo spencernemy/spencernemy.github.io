@@ -135,11 +135,22 @@ main h2 {
 /* Reflection Page Styling */
 
 .reflection {
-    padding: 20px 3%;
+    padding: 10px 3%;
 }
 
-.reflection p {
+.reflection p:not(.first-paragraph) {
     text-indent: 40px;
+}
+
+.reflection-desc {
+    font-size: 24px;
+}
+
+.reflection-content {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #B8C6D8;
+    border-radius: 20px;
 }
 
 /* Pseudo element used here */
@@ -147,8 +158,4 @@ main h2 {
     font-weight: bold;
     font-size: 2em;
     color: #3B82F6;
-}
-
-.reflection-desc {
-    font-size: 24px;
 }
