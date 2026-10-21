@@ -99,6 +99,15 @@ main h2 {
 
 /* About Page Styling */
 
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
 .resume-link {
     display: inline-block;
     text-decoration: none;
@@ -130,6 +139,14 @@ main h2 {
 .education-list li:hover {
     font-weight: bold;
     cursor: default;
+}
+
+.resume-video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
 }
 
 /* Reflection Page Styling */
