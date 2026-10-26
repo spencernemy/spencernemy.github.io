@@ -1,7 +1,7 @@
 /*
   Name: Spencer Niemeyer
   File: style.css
-  Date: 10/18/2026
+  Date: 10/26/2026
   Course: IS_LT 4355
   Description: Styles for all main pages of portfolio website.
 */
@@ -179,4 +179,27 @@ main h2 {
     font-weight: bold;
     font-size: 2em;
     color: #3B82F6;
+}
+
+@media print {
+    @page {
+        margin: 1in;
+    }
+
+    .about-page, .about-page *,
+    .about-page .education-list li {
+        font-family:'Times New Roman', serif;
+        color: black;
+    }
+
+    .about-page header,
+    .about-page .resume,
+    .about-page .no-print,
+    .about-page .about-image {
+        display: none;
+    }
+
+    .about-page {
+        font-size: 12pt;
+    }
 }

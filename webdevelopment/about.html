@@ -3,7 +3,7 @@
 <!--
   Name: Spencer Niemeyer
   File: about.html
-  Date: 10/18/2026
+  Date: 10/26/2026
   Course: IS_LT 4355
   Description: About page for my portfolio website.
 -->
@@ -23,7 +23,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="about-page">
     <header>
         <a href="index.html"><img src="../webcontent/logo.png" alt="Spencer Niemeyer Logo" class="logo"></a>
         <nav> <!-- Navigation coded here -->
@@ -52,8 +52,7 @@
             am primarily involved in a campus ministry called The Bridge, where I hold a student
             leadership position helping lead the ministry. During the summer of 2026, I had the
             opportunity to gain real world experience through a DevOps Internship at DataServ; going
-            into the Fall 2026 semester, I will be continuing this internship as well as tutoring other
-            computer science students at the Student Success Center at Mizzou. The goal I am
+            into the Fall 2026 semester, I will be continuing this internship. The goal I am
             focusing on the most right now is expanding my programming skills beyond low-level
             programming languages in order to showcase my abilities with a range of tasks and
             languages, as well as continuing to get internship opportunities to gain more professional
@@ -70,19 +69,21 @@
             <li>School: University of Missouri College of Engineering</li>
         </ul>
 
-        <h3>Resume</h3>
-        <p>Resume: <a class="resume-link" href="../webcontent/Spencer Niemeyer.pdf">Open My Resume</a></p>
-        <p>Resume Video: Spencer Niemeyer introduces himself and discusses his education and experience.</p>
-        <video class="resume-video" controls><source src="../webcontent/resume-video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        <section class="resume">
+            <h3>Resume</h3>
+            <p>Resume: <a class="resume-link" href="../webcontent/Spencer Niemeyer.pdf">Open My Resume</a></p>
+            <p>Resume Video: Spencer Niemeyer introduces himself and discusses his education and experience.</p>
+            <video class="resume-video" controls><source src="../webcontent/resume-video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; Spencer Niemeyer, 2026</p>
+        <p class="no-print">&copy; Spencer Niemeyer, 2026</p>
 
         <div class="footer-links">
             <p>Contact: <a href="mailto:spencerniemeyer@gmail.com">spencerniemeyer@gmail.com</a></p>
-            <a href="https://github.com/spencernemy" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank">LinkedIn</a>
+            <a href="https://github.com/spencernemy" target="_blank" class="no-print">GitHub</a>
+            <a href="https://www.linkedin.com/in/spencer-niemeyer" target="_blank" class="no-print">LinkedIn</a>
         </div>
     </footer>
 </body>
