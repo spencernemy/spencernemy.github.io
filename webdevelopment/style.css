@@ -1,7 +1,7 @@
 /*
   Name: Spencer Niemeyer
   File: style.css
-  Date: 10/26/2026
+  Date: 11/3/2026
   Course: IS_LT 4355
   Description: Styles for all main pages of portfolio website.
 */
@@ -202,4 +202,57 @@ main h2 {
     .about-page {
         font-size: 12pt;
     }
+}
+
+/* Contact Page Styling */
+
+.contact-page h1 {
+    margin-bottom: 5px;
+}
+
+.contact-description {
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.contact-page form {
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+.contact-page label {
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.contact-page input,
+.contact-page select,
+.contact-page textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+.contact-page textarea {
+    height: 100px;
+}
+
+.contact-page button {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
 }
