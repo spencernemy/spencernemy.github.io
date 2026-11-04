@@ -222,7 +222,7 @@ main h2 {
     }
 
     .about-page header,
-    .about-page .resume,
+    .about-page .resume-section,
     .about-page .no-print,
     .about-page .about-image {
         display: none;
