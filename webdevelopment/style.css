@@ -233,6 +233,63 @@ main h2 {
     }
 }
 
+/* Projects Page Styling */
+
+.projects-page {
+    padding: 10px 3%;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-list article {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #3B82F6;
+}
+
+.projects-list h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.projects-list img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.projects-list #farkle-img {
+    max-width: 600px;
+}
+
+.projects-list p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .projects-list article {
+        padding: 5px;
+    }
+
+    .projects-list h2 {
+        font-size: 20px;
+    }
+
+    .projects-list p {
+        font-size: 14px;
+    }
+
+    .projects-list img {
+        max-width: 250px;
+    }
+}
+
 /* Reflection Page Styling */
 
 .reflection {
