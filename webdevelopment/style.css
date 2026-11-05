@@ -6,7 +6,7 @@
   Description: Styles for all main pages of portfolio website.
 */
 
-/* Universal styles */
+/* Universal styles -------------------- */
 
 body {
     margin: 0;
@@ -43,7 +43,7 @@ main h2 {
     background-color: #1E3A5F;
 }
 
-/* Home Page Styling */
+/* Home Page Styling -------------------------- */
 
 .home-section {
     border-bottom: 1px solid gray;
@@ -97,7 +97,7 @@ main h2 {
     border-radius: 40px;
 }    
 
-/* About Page Styling */
+/* About Page Styling ------------------------ */
 
 .about-page main {
     padding: 10px 3%;
@@ -191,6 +191,32 @@ main h2 {
     margin: 15px 0;
 }
 
+.skills-section {
+    margin: 20px 0;
+}
+
+.skills-section table {
+    width: 100%;
+    border: 1px solid #1E3A5F;
+    border-collapse: collapse;
+}
+
+.skills-section th,
+.skills-section td {
+    padding: 10px;
+    border: 1px solid #B8C6D8;
+    text-align: left;
+}
+
+.skills-section tbody tr:nth-child(odd) {
+    background-color: #DCE6F2;
+}
+
+.skills-section caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 @media (max-width: 650px) {
     .about-layout,
     .resume {
@@ -203,6 +229,12 @@ main h2 {
 
     .about-layout p {
         text-align: center;
+    }
+
+    .skills-section th,
+    .skills-section td {
+        padding: 5px;
+        font-size: 12px;
     }
 }
 
@@ -233,7 +265,7 @@ main h2 {
     }
 }
 
-/* Projects Page Styling */
+/* Projects Page Styling --------------------- */
 
 .projects-page {
     padding: 10px 3%;
@@ -290,7 +322,7 @@ main h2 {
     }
 }
 
-/* Reflection Page Styling */
+/* Reflection Page Styling ---------------------- */
 
 .reflection {
     padding: 10px 3%;
@@ -318,7 +350,7 @@ main h2 {
     color: #3B82F6;
 }
 
-/* Contact Page Styling */
+/* Contact Page Styling ------------------------- */
 
 .contact-page h1 {
     margin-bottom: 5px;
