@@ -105,6 +105,46 @@ main h2 {
     margin: 30px;
 }
 
+@media (max-width: 600px) {
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        max-width: 90%;
+    }
+
+    .hero-text h2 {
+        font-size: 20px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 90%;
+        padding: 20px 3%;
+    }
+
+    .hero-image {
+        width: 100%;
+        border-left: none;
+        padding: 10px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
 /* About Page Styling ------------------------ */
 
 .about-page main {

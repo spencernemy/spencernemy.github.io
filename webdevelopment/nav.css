@@ -1,7 +1,7 @@
 /*
   Name: Spencer Niemeyer
   File: nav.css
-  Date: 11/4/2026
+  Date: 11/5/2026
   Course: IS_LT 4355
   Description: Styles for header and footer of portfolio website.
 */
@@ -87,6 +87,21 @@ header {
         flex-wrap: wrap;
     }
 
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    footer p,
+    footer a {
+        font-size: 14px;
+    }
+
+    footer a {
+        white-space: nowrap;
+    }
+
     .hamburger {
         display: block;
         font-size: 36px;
@@ -113,6 +128,12 @@ header {
 
     .dropdown:hover .submenu {
         display: none;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
 }
 
