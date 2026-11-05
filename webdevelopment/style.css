@@ -8,6 +8,7 @@
 
 /* Universal styles -------------------- */
 
+/* Custom font from Google Fonts applied to site */
 body {
     margin: 0;
     font-family: Inter, sans-serif;
@@ -63,11 +64,13 @@ main h2 {
 .hero-text h1 {
     font-size: 64px;
     margin: 0;
+    letter-spacing: 3px;
 }    
 
 .hero-text h2 {
     font-size: 24px;
     margin-top: 8px;
+    text-shadow: 1px 1px 2px #B8C6D8;
 }    
 
 .hero-text p {
