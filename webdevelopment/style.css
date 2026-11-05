@@ -51,10 +51,11 @@ main h2 {
 
 .hero {
     background-color: #DCE6F2;
+    display: flex;
+    align-items: center;
 }    
 
 .hero-text {
-    display: inline-block;
     width: 55%;
     padding: 55px 3%;
 }    
@@ -85,17 +86,24 @@ main h2 {
 }
 
 .hero-image {
-    display: inline-block;
     width: 38%;
     padding: 20px 0;
     text-align: center;
     border-left: 1px solid gray;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    
 
 .hero-image img {
     width: 300px;
     border-radius: 40px;
-}    
+}
+
+.purposes-goals {
+    margin: 30px;
+}
 
 /* About Page Styling ------------------------ */
 
